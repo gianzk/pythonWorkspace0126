@@ -1,7 +1,7 @@
 # ProgramacionPython
 Material del curso de programación con Python
 
-Emplear el siguiente manual de instalación [link](https://gdelgador.github.io/ProgramacionPython202409).
+Emplear el siguiente manual de instalación [link](https://gianzk.github.io/pythonWorkspace0126/).
 
 ## Contenido del Curso
 
