@@ -1,0 +1,7 @@
+# Realiza un menu iterativo
+# Cada opcion debe ser una funcion => fz()
+# Opcion 1 : Sumar 2 numeros
+# Opcion 2 : Crea una coleccion de productos para un mercado
+# Opcion 3 : Agrega un nuevo producto a la coleccion
+# Opcion 4 : Mostrar el producto de precio mas bajo
+# Opcion 5 : Salir
