@@ -24,3 +24,38 @@
 # Reporte de ventas
 # Reporte de ingresos 
 
+# Analisis 
+# Clases :Usuarios , Clientes
+#  Fx : metodos de las clases
+# caracteristicas o atributos : atributos
+from usuarios.userservices import getUser
+def getMenu():
+    msg = """
+        Bienvenido al sistema 
+        1. Login
+        2. Salir
+    """
+    print(msg)
+    opcion = int(input("ingrese una opcion:"))
+    return opcion
+
+def evaluate(opcion:int):
+    if opcion ==1:
+        email="this is email"
+        password ="password"
+        data=getUser(email)
+        if data['password'] == password:
+            print("Login correct")
+        else:
+            print("Incorrecto")
+            getMenu()
+    elif opcion==2:
+        print("Adios!")
+        return False
+
+if __name__ == "__main__":
+    running = True
+    while running:
+        opcion = getMenu()
+        eval = evaluate(opcion) 
+        running = eval
