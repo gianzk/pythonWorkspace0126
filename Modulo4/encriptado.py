@@ -1,0 +1,12 @@
+import bcrypt
+password = input("password: ").encode()
+
+# Hash a password for the first time, with a randomly-generated salt
+hashed = bcrypt.hashpw(password, bcrypt.gensalt())
+# Check that an unhashed password matches one that has previously been
+# hashed
+print(password,hashed)
+if bcrypt.checkpw(password, hashed):
+    print("It Matches!")
+else:
+    print("It Does not Match :(")
