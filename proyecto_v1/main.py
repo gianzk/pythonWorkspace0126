@@ -1,5 +1,33 @@
 # Realiza un menu interactivo para el sistema inmobiliario usando Rich
 # libreria rich y pyfiglet
+# Agregar usuarios
+# realiza un login
+# Cerrar session
+# Crear producto 
+# Listar Productos
+# Detalle de un producto
+# Editar producto
+# Cambiar de estado 
+# Registrar cliente
+# evaluacion de clientes
+# Listar Clientes
+# Estados de cliente
+# Crear transaccion de venta
+# generar simulacion : Monto , TEA , Plazo
+# cuota : Mxi/1-(1+i)-n
+# Asociar cliente a producto
+# Marcar producto como reservado o vendido
+# buscador de producto
+# filtro de producto
+# Pagos de cliente
+# documentos asociados a propiedad
+# Reporte de ventas
+# Reporte de ingresos 
+
+# Analisis 
+# Clases :Usuarios , Clientes
+#  Fx : metodos de las clases
+# caracteristicas o atributos : atributos
 from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
